@@ -1,17 +1,11 @@
 def add(a, b):
     return a + b
 
+def sub(a, b):
+    return a - b
 
-def subtract(a, b):
-    # TODO: implement this
-    pass
+def div(a, b):
+    return a / b
 
-
-def multiply(a, b):
-    # TODO: implement this
-    pass
-
-
-def divide(a, b):
-    # TODO: implement this (don't forget to handle division by zero)
-    pass
+def mul(a, b):
+    return a * b
