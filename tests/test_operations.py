@@ -8,16 +8,18 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
 
     def test_subtract(self):
-        # TODO: add assertions for subtract
-        pass
+        self.assertEqual(subtract(2, 3), -1)
+        self.assertEqual(subtract(-6, 1), -7)
+        self.assertEqual(subtract(4, 2), 2)
 
     def test_multiply(self):
-        # TODO: add assertions for multiply
-        pass
+        self.assertEqual(multiply(2, 3), 6)
+        self.assertEqual(multiply(-1, 1), -1)
+        self.assertEqual(multiply(8, 6), 48)
 
     def test_divide(self):
-        # TODO: add assertions for divide
-        pass
+        self.assertEqual(divide(6, 3), 2)
+        self.assertEqual(divide(-4, -1), 4)
+        self.assertEqual(divide(7, 3), 2)
 
-if __name__ == '__main__':
-    unittest.main()
+
