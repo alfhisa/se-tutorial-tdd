@@ -1,17 +1,18 @@
-def add(a, b):
-    return a + b
+def add(first_number, second_number):
+    return first_number + second_number
 
 
-def subtract(a, b):
-    # TODO: implement this
-    pass
+def subtract(first_number, second_number):
+    return first_number - second_number
 
 
-def multiply(a, b):
-    # TODO: implement this
-    pass
+def multiply(first_number, second_number):
+    return first_number * second_number
 
 
-def divide(a, b):
-    # TODO: implement this (don't forget to handle division by zero)
-    pass
+def divide(first_number, second_number):
+    try:
+        return first_number/second_number
+    except ZeroDivisionError:
+        print('Cannot divide by zero!')
+        return None
