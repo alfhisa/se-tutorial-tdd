@@ -15,3 +15,4 @@ def divide(first_number, second_number):
         return first_number/second_number
     except ZeroDivisionError:
         print('Cannot divide by zero!')
+        return None
